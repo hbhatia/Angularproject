@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  link = {
+    allBlogs: ["/all-blogs"],
+    favouriteBlogs: ["/favourite-blogs"],
+    popularBlogs: ["/popular-blogs"],
+    myBlogs: ["/my-blogs"],
+    sports: ["/sports"],
+    religion: ["/religion"],
+    business: ["/business"],
+    technology: ["/technology"],
+    others: ["/others"]
+  }
 }
